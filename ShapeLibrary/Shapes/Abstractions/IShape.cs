@@ -1,6 +1,6 @@
 ﻿namespace ShapeLibrary.Shapes.Abstractions;
 
-internal interface IShape
+public interface IShape
 {
     double GetArea();
 }

@@ -1,6 +1,6 @@
-﻿namespace ShapeLibrary.Shapes;
+﻿namespace ShapeLibrary.Shapes.Abstractions;
 
-public interface ITriangle : IShape
+public interface ITriangle
 {
     bool IsRightAngled();
 }
